@@ -31,7 +31,7 @@ const LeftNav = () => {
 
   return (
     <div
-      className={`md:block w-[240px] overflow-y-auto h-full py-4 bg-black absolute md:relative z-10 md:translate-x-0 transition-all md:scrollbar ${
+      className={`md:block w-[240px] overflow-y-auto h-full py-4 bg-black absolute md:relative z-10 md:translate-x-0 transition-all scrollbar md:overflow-y-hidden ${
         isHovered ? "hover-scrollbar" : ""
       } ${mobileMenu ? "translate-x-0" : "translate-x-[-240px]"}`}
       onMouseEnter={() => setIsHovered(true)}

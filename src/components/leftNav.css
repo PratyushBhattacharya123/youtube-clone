@@ -2,10 +2,6 @@
   width: 9px;
 }
 
-.scrollbar {
-  overflow-y: hidden;
-}
-
 .hover-scrollbar {
   overflow-y: auto;
 }
