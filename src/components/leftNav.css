@@ -1,0 +1,19 @@
+.scrollbar::-webkit-scrollbar {
+  width: 9px;
+}
+
+.scrollbar {
+  overflow-y: hidden;
+}
+
+.hover-scrollbar {
+  overflow-y: auto;
+}
+
+.scrollbar::-webkit-scrollbar-button:decrement {
+  border-width: 0 5px 5px;
+}
+
+.scrollbar::-webkit-scrollbar-button:increment {
+  border-width: 5px 5px 0;
+}
